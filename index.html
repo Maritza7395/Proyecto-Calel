@@ -8,44 +8,41 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <title>Calel</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#" style="margin-left: 85px;">
-            <img src="./resources/logo.png" height="30px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Particulares <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Equipos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Producto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Precios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Recursos</a>
-                </li>
-            </ul>
-            <div style="margin-left: 70px;">
-                <button class="btn">Iniciar sesión</button>
-                <button class="btn register-button">Registrese</button>
+    <div class="container-fluid">
+        <div class="row menu">
+            <div class="col-sm-8 col-md-2 content-logo">
+                <img class="logo" src="./resources/logo.png">
+            </div>
+            <div id="tabs" class="col-md-8 tabs">
+                <div class="content-one">
+                    <a href="#news">Particulares</a>
+                    <a href="#news">Equipos</a>
+                    <a href="#news">Producto</a>
+                    <a href="#news">Precios</a>
+                    <a href="#news">Recursos</a>
+                </div>
+                <div>
+                    <a href="#login">Iniciar Sesión</a>
+                </div>
+            </div>
+            <div class="col-1 boton">
+                <button class="btn register-button">Regístrese</button>
+                <div class="icono" onclick="desplegarMenu()">
+                    <i class="fa fa-bars fa-lg"></i>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="./js/functions.js"></script>
 </body>
 
 </html>
