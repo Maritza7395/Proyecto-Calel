@@ -15,11 +15,12 @@
 
 <body>
     <div class="container-fluid">
+        <!-- Menu -->
         <div class="row menu">
-            <div class="col-sm-8 col-md-2 content-logo">
+            <div class="col-sm-6 col-md-2 content-logo">
                 <img class="logo" src="./resources/logo.png">
             </div>
-            <div id="tabs" class="col-md-8 tabs">
+            <div id="tabs" class="col-sm-8 tabs">
                 <div class="content-one">
                     <a href="#news">Particulares</a>
                     <a href="#news">Equipos</a>
@@ -31,10 +32,54 @@
                     <a href="#login">Iniciar Sesión</a>
                 </div>
             </div>
-            <div class="col-1 boton">
+            <div class="col-sm-2 boton">
                 <button class="btn register-button">Regístrese</button>
                 <div class="icono" onclick="desplegarMenu()">
                     <i class="fa fa-bars fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Header -->
+        <div class="row header">
+            <div class="col-sm-7">
+                <div class="row titulo">
+                    <label>
+                        <span>Programación fácil con </span>
+                        <span id="blue">anticipación</span>
+                    </label>
+                </div>
+                <div class="row subtitulo">
+                    <p>Calel es su centro de programación de reuniones de manera profesional y
+                        eficiente y elimina el problema del intercambio de correos electrónicos para que
+                        pueda dedicar más tiempo a su trabajo.</p>
+                </div>
+                <div class="row form-g">
+                    <input type="text" class="form-control form-control--radius" placeholder="Ingrese su email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <!-- <div> -->
+                        <button class="btn register-button register-button--black">Regístrese</button>
+                    <!-- </div> -->
+                </div> 
+            </div>
+            <div class="col-sm-5">
+                <img class="header-img" src="./resources/header.png">
+            </div>
+        </div>
+        <div class="row intermedio">
+            <div class="row margin-row">
+                <div class="row width-row">
+                    <label class="info">
+                        <span>Programación simplificada para más de </span> 
+                        <span id="blue">200 000 000</span>
+                        <span> reuniones</span>
+                    </label>
+                </div>
+                <div class="row logos">
+                    <img src="./resources/Compass.png">
+                    <img src="./resources/dropbox.png">
+                    <img src="./resources/ebay.png">
+                    <img src="./resources/Lazboy.png">
+                    <img src="./resources/Gartner.png">
+                    <img src="./resources/twilio.png">
                 </div>
             </div>
         </div>

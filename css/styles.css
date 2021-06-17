@@ -15,6 +15,10 @@ body{
     padding: 5px 20px;
     font-size: 13px;
 }
+.register-button--black{
+    background-color: #000000;
+    transform: translate(-45px, 0px);
+}
 
 .boton{
     display: flex;
@@ -27,7 +31,7 @@ body{
 }
 .logo{
     height: 32px;
-    float: left;
+    float: right;
     margin: 6px 0px;
     transform: translate(10px, 10px);
 }
@@ -39,10 +43,6 @@ body{
     font-weight: 600;
 }
 
-.content-logo{
-    margin-left: 80px;
-}
-
 .tabs a {
     text-decoration: none;
     color: #000000;
@@ -51,6 +51,68 @@ body{
 
 .icono{
     display: none;
+}
+
+.header{
+    margin-top: 120px;
+    padding-left: 95px;
+}
+
+.subtitulo{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 60px;
+}
+
+.titulo{
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: 900;
+}
+
+#blue{
+    color: #006BFF;
+}
+
+.form-control--radius{
+    border-radius: 20px;
+}
+.form-g{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: 20px 0px 120px -15px;
+}
+
+.intermedio{
+    height: 336px; 
+    background-color: #FBFBFB;
+}
+
+.info{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.width-row{
+    width: 50%
+}
+.margin-row{
+    margin: 80px 83px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logos{
+    width: 100%;
+    justify-content: space-between;
+    opacity: 0.5;
+    margin-top: 60px;
+}
+
+.logos img{
+    height: 23px;
 }
 
 @media screen and (max-width: 768px){
@@ -82,9 +144,10 @@ body{
     .boton{
         position: absolute;
         display: flex;
-        margin-left: 205px;
+        margin-left: 50%;
     }
     .logo{
         height: 28px;
+        float: none;
     }
 }
