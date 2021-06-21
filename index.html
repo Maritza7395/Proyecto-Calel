@@ -10,17 +10,18 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobile.css">
     <title>Calel</title>
 </head>
 
 <body>
-    <div style="width: 98%;">
+    <div class="container-fluid">
         <!-- Menu -->
-        <div class="row menu">
-            <div class="col-sm-6 col-md-2 content-logo">
+        <div class="row menu u-txt-16 u-fw-600 m-lr-83">
+            <div class="col-xs-2">
                 <img class="logo" src="./resources/logo.png">
             </div>
-            <div id="tabs" class="col-sm-8 tabs">
+            <div id="tabs" class="col-sm-9 tabs u-align-space">
                 <div class="content-one">
                     <a href="#news">Particulares</a>
                     <a href="#news">Equipos</a>
@@ -32,190 +33,201 @@
                     <a href="#login">Iniciar Sesión</a>
                 </div>
             </div>
-            <div class="col-sm-2 boton">
-                <button class="btn register-button">Regístrese</button>
-                <div class="icono" onclick="desplegarMenu()">
+            <div class="col-xs-1 btn-align">
+                <button class="btn register-button u-border-radius-20">Regístrese</button>
+                <div class="icono-hamburguesa" onclick="desplegarMenu()">
                     <i class="fa fa-bars fa-lg"></i>
                 </div>
             </div>
         </div>
+        <div id="tabs-mobile" class="tabs-mobile">
+            <div class="content-one">
+                <a href="#news">Particulares</a>
+                <a href="#news">Equipos</a>
+                <a href="#news">Producto</a>
+                <a href="#news">Precios</a>
+                <a href="#news">Recursos</a>
+            </div>
+            <div>
+                <a href="#login">Iniciar Sesión</a>
+            </div>
+        </div>
         <!-- Header -->
-        <div class="row header">
-            <div class="col-sm-7">
-                <div class="row titulo">
+        <div class="row m-top-128 m-bottom-128 m-lr-83 u-flex-reverse">
+            <div class="col-sm-6 m-top-32">
+                <div class="row u-txt-90 u-word-break">
                     <label>
                         <span>Programación fácil con </span>
-                        <span id="blue">anticipación</span>
+                        <span class="u-txt-blue">anticipación</span>
                     </label>
                 </div>
-                <div class="row subtitulo">
+                <div class="row u-txt-18 m-top-64">
                     <p>Calel es su centro de programación de reuniones de manera profesional y
                         eficiente y elimina el problema del intercambio de correos electrónicos para que
                         pueda dedicar más tiempo a su trabajo.</p>
                 </div>
-                <div class="row form-g">
-                    <input type="text" class="form-control form-control--radius" placeholder="Ingrese su email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <!-- <div> -->
-                        <button class="btn register-button register-button--black">Regístrese</button>
-                    <!-- </div> -->
+                <div class="row form-button m-top-24">
+                    <input type="text" class="form-control u-border-radius-20" placeholder="Ingrese su email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <button class="btn register-button register-button--black u-border-radius-20">Regístrese</button>
                 </div> 
             </div>
-            <div class="col-sm-5">
-                <img class="header-img" src="./resources/header.png">
+            <div class="col-sm-5 offset-sm-1 m-bottom-24">
+                <img class="u-width-100" src="./resources/header.png">
             </div>
         </div>
-        <div class="row intermedio">
-            <div class="row margin-row">
-                <div class="row width-row">
-                    <label class="info">
+        <div class="row u-bg-FB">
+            <div class="row u-justify-center m-tb-80 u-txt-center m-lr-83">
+                <div class="row u-width-50">
+                    <label class="u-txt-32">
                         <span>Programación simplificada para más de </span> 
-                        <span id="blue">200 000 000</span>
+                        <span class="u-txt-blue">200 000 000</span>
                         <span> reuniones</span>
                     </label>
                 </div>
-                <div class="row logos">
-                    <img src="./resources/Compass.png">
-                    <img src="./resources/dropbox.png">
-                    <img src="./resources/ebay.png">
-                    <img src="./resources/Lazboy.png">
-                    <img src="./resources/Gartner.png">
-                    <img src="./resources/twilio.png">
+                <div class="row logos m-top-64">
+                    <div><img src="./resources/Compass.png"></div>
+                    <div><img src="./resources/dropbox.png"></div>
+                    <div><img src="./resources/ebay.png"></div>
+                    <div><img src="./resources/Lazboy.png"></div>
+                    <div><img src="./resources/Gartner.png"></div>
+                    <div><img src="./resources/twilio.png"></div>
                 </div>
             </div>
         </div>
-        <div class="row funcion">
-            <div id="subidaTexto">
+        <div class="row u-align-item-center u-flex-column m-top-128 m-bottom-128 m-lr-83">
+            <div class="u-txt-14 u-opacity-064">
                 <span>CÓMO FUNCIONA</span>
             </div>
-            <div id="titulo">
+            <div class="u-txt-52 m-top-24 u-txt-center">
                 <span>Ver Calel en acción</span>
             </div>
-            <div>
-                <img src="./resources/calendly.png">
+            <div class="m-tb-96">
+                <img class="img-desktop" src="./resources/calendly.png">
+                <img class="img-mobile" src="./resources/calendlymobile.png" width="100%">
             </div>
-            <div class="row info-column">
-                <div class="col-sm-3 padding-col">
-                    <div class="circuloAzul">1.</div>
-                    <p class="titleColumn">Cree sencillas reglas</p>
-                    <p class="descripcion">Dígale a Calel cuáles son sus preferencias en cuanto a la 
+            <div class="row u-align-justify-center u-width-100">
+                <div class="col-sm-3 p-left-30 u-boder-left-CE">
+                    <div class="circuloAzul u-border-radius-20 u-txt-center">1.</div>
+                    <p class="u-txt-24">Cree sencillas reglas</p>
+                    <p class="u-txt-18">Dígale a Calel cuáles son sus preferencias en cuanto a la 
                         disponibilidad y este hará el trabajo por usted.</p>
                 </div>
-                <div class="col-sm-3 padding-col">
-                    <div class="circuloAzul">2.</div>
-                    <p class="titleColumn">Comparta su enlace</p>
-                    <p class="descripcion">Redirija a los invitados al elace de Calendly o intégrelo en sitios web.</p>
+                <div class="col-sm-3 p-left-30 u-boder-left-CE">
+                    <div class="circuloAzul u-border-radius-20 u-txt-center">2.</div>
+                    <p class="u-txt-24">Comparta su enlace</p>
+                    <p class="u-txt-18">Redirija a los invitados al elace de Calendly o intégrelo en sitios web.</p>
                 </div>
-                <div class="col-sm-3 padding-col">
-                    <div class="circuloAzul">3.</div>
-                    <p class="titleColumn">Reciba reservas</p>
-                    <p class="descripcion">Cuando se elige una hora, el evento se añade en su calendario.</p>
+                <div class="col-sm-3 p-left-30 u-boder-left-CE">
+                    <div class="circuloAzul u-border-radius-20 u-txt-center">3.</div>
+                    <p class="u-txt-24">Reciba reservas</p>
+                    <p class="u-txt-18">Cuando se elige una hora, el evento se añade en su calendario.</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="row reuniones">
-                <div id="titulo">
+        <div class="row m-bottom-128 m-lr-83">
+            <div class="row m-lr-204 u-txt-center">
+                <div class="u-txt-52">
                     <p>Programe reuniones sin tanto intercambio de correos electrónicos</p>
                 </div>
-                <div class="bajadaTitulo">
+                <div class="u-txt-24 u-fw-500 m-top-40">
                     <p>Calel simplifica la programación ofreciendo únicamente horarios que se 
                         adapten a su disponibilidad en todos sus calendarios.</p>
                 </div>
             </div>
-            <div class="row imagenes">
-                <img src="./resources/zoom.png">
-                <img src="./resources/meeting.png">
+            <div class="row m-tb-80 m-lr-118 u-align-space u-width-100">
+                <img width="100%" src="./resources/zoom.png">
+                <img width="100%" src="./resources/meeting.png">
             </div>
-            <div class="row bajadaImagenes">
+            <div class="row">
                 <div class="col-sm-6">
-                    <p class="titleColumn">Reúnase de la forma que desee</p>
-                    <p class="descripcion">Muestre disponibilidad en su horario solo los días y las horas que se adapten a usted. 
+                    <p class="u-txt-24">Reúnase de la forma que desee</p>
+                    <p class="u-txt-18">Muestre disponibilidad en su horario solo los días y las horas que se adapten a usted. 
                         Cuando su invitado elija la hora de la reunión, se confirmará al instante</p>
                 </div>
                 <div class="col-sm-6">
-                    <p class="titleColumn">Calel lo coordina todo</p>
-                    <p class="descripcion">Las reuniones se programan sin conflictos de calendario, los recordatorios se envían 
+                    <p class="u-txt-24">Calel lo coordina todo</p>
+                    <p class="u-txt-18">Las reuniones se programan sin conflictos de calendario, los recordatorios se envían 
                         automáticamente y reprogramar supone una bocana de aire fresco para todos.</p>
                 </div>
             </div>
-            <div class="row margin-btn">
-                <button class="buttonWhite">Utilizar Calendly</button>
+            <div class="row m-lr-auto m-top-40">
+                <button class="buttonWhite u-border-radius-20">Utilizar Calendly</button>
             </div>
         </div>
-        <div class="row">
-            <div class="row dedique">
-                <div class="col-sm-6 offset-sm-3">
-                    <p id="titulo">Dedique más tiempo a lo que hace mejor</p>
-                    <p class="bajadaTitulo">Al eliminar los inconvenientes e interrupciones relacionados con la programación de reuniones, 
+        <div class="row m-lr-83 m-bottom-128">
+            <div class="row u-txt-center">
+                <div class="m-lr-auto u-width-54">
+                    <p class="u-txt-52">Dedique más tiempo a lo que hace mejor</p>
+                    <p class="u-txt-24 m-top-40 u-fw-500">Al eliminar los inconvenientes e interrupciones relacionados con la programación de reuniones, 
                         su día estará libre para lograr sus objetivos.</p>
                 </div>
             </div>
-            <div class="row gestion">
-                <div class="col-sm-5 offset-sm-1">
-                    <p id="subidaTexto">GESTIÓN DE FLUJOS DE TRABAJO</p>
-                    <p class="titulo-40">Automatice recordatorios y seguimientos</p>
-                    <p class="subtitulo">Calel automatiza sus reuniones con flujos de trabajo y envía desde correos electrónicos de recordatorio hasta 
+            <div class="row u-align-space m-top-136">
+                <div class="col-sm-5">
+                    <p class="u-txt-14 u-opacity-064">GESTIÓN DE FLUJOS DE TRABAJO</p>
+                    <p class="u-txt-40">Automatice recordatorios y seguimientos</p>
+                    <p class="u-txt-18 m-top-60">Calel automatiza sus reuniones con flujos de trabajo y envía desde correos electrónicos de recordatorio hasta 
                         notas de agradecimiento, para que pueda centrarse en el trabajo que solo usted puede realizar. 
                         Es como tener un asistente, incluso si tiene un negocio unipersonal.</p>
                 </div>
                 <div class="col-sm-5">
-                    <img src="./resources/recordatorios.png">
+                    <img width="100%" src="./resources/recordatorios.png">
                 </div>
             </div>
-            <div class="row gestion dsp">
-                <div class="col-sm-5 offset-sm-1">
-                    <img src="./resources/contactos.png">
-                </div>
+            <div class="row u-align-space u-justify-unset m-bottom-128">
                 <div class="col-sm-5">
-                    <p id="subidaTexto">PROGRAMACIÓN BAJO DEMANDA</p>
-                    <p class="titulo-40">Haga más contactos y reduzca las cancelaciones</p>
-                    <p class="subtitulo">Los clientes potenciales pueden programar reuniones con tan solo unos clics, siempre en el momento oportuno. 
+                    <img width="100%" src="./resources/contactos.png">
+                </div>
+                <div class="col-sm-6">
+                    <p class="u-txt-14 u-opacity-064">PROGRAMACIÓN BAJO DEMANDA</p>
+                    <p class="u-txt-40">Haga más contactos y reduzca las cancelaciones</p>
+                    <p class="u-txt-18 m-top-60">Los clientes potenciales pueden programar reuniones con tan solo unos clics, siempre en el momento oportuno. 
                         Y se reducen las cancelaciones porque la reprogramación es fácil, rápida y según sus propias condiciones.</p>
                 </div>
             </div>
-            <div class="row gestion">
-                <div class="col-sm-5 offset-sm-1">
-                    <p id="subidaTexto">EL ENFOQUE CORTÉS</p>
-                    <p class="titulo-40">Deleite a los invitados con una programación moderna</p>
-                    <p class="subtitulo">El tiempo es un bien preciado. Calel es una manera cortés de reservar reuniones y otras citas, porque 
+            <div class="row u-align-space m-bottom-128">
+                <div class="col-sm-5">
+                    <p class="u-txt-14 u-opacity-064">EL ENFOQUE CORTÉS</p>
+                    <p class="u-txt-40">Deleite a los invitados con una programación moderna</p>
+                    <p class="u-txt-18 m-top-60">El tiempo es un bien preciado. Calel es una manera cortés de reservar reuniones y otras citas, porque 
                         programar con unos pocos clics ahorra el máximo de tiempo para todos.</p>
                 </div>
                 <div class="col-sm-5">
-                    <img src="./resources/phone.png">
+                    <img width="100%" src="./resources/phone.png">
                 </div>
             </div>
-            <div class="row gestion dsp">
-                <div class="col-sm-5 offset-sm-1">
-                    <img src="./resources/Bitly.png">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img width="100%" src="./resources/Bitly.png">
                 </div>
-                <div class="col-sm-5">
-                    <p id="subidaTexto">BITLY</p>
-                    <p class="info">Los representantes de desarrollo de ventas no solo acaban con todo un calendario lleno de clientes 
+                <div class="col-sm-7 offset-sm-1">
+                    <p class="u-txt-14 u-opacity-064">BITLY</p>
+                    <p class="u-txt-32">Los representantes de desarrollo de ventas no solo acaban con todo un calendario lleno de clientes 
                         potenciales con los que hablar, sino que estos clientes potenciales asisten más a las reuniones.</p>
-                    <p class="bajadaAzul">Dave Rotholz</p>
-                    <img class="derecha" src="./resources/figura.png">
+                    <p class="u-txt-24 u-txt-blue">Dave Rotholz</p>
+                    <img width="100%" class="u-float-right" src="./resources/figura.png">
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6 offset-sm-1">
-                <p class="titulo">Pruebe Calel gratis</p>
-                <p class="gratis">Tras su prueba de 14 días de nuestro plan Profesional, disfrute de la versión gratuita de Calendly para siempre.</p>
-                <label class="enterprise">
+        <div class="row m-lr-83">
+            <div class="col-sm-8 m-bottom-128">
+                <p class="u-txt-90">Pruebe Calel gratis</p>
+                <p class="u-txt-24 u-fw-500 m-top-40">Tras su prueba de 14 días de nuestro plan Profesional, disfrute de la versión gratuita de Calendly para siempre.</p>
+                <label class="u-txt-18 m-top-40">
                     <span>Para consultar sobre nuestros planes Enterprise, haga clic </span>
-                    <span id="negrita">aquí.</span>
+                    <span class="u-fw-500">aquí.</span>
                 </label>
             </div>
-            <div class="col-sm-2 offset-sm-2">
-                <img src="./resources/registro.png">
+            <div class="col-sm-3 offset-sm-1">
+                <img width="100%" class="u-float-right" src="./resources/registro.png">
             </div>
         </div>
-        <div class="row">
+        <div class="row m-lr-83 m-top-128 m-bottom-128">
             <div class="col-sm-2">
-                <img class="logo foo" src="./resources/logo.png">
+                <img class="logo" src="./resources/logo.png">
             </div>
-            <div class="col-sm-2 texto-16">
-                <p class="titleColumn">Acerca de</p>
+            <div class="col-sm-2 u-txt-16">
+                <p class="u-txt-24">Acerca de</p>
                 <p>Acerca de Calendry</p>
                 <p>Póngase en contacto con el equipo de ventas</p>
                 <p>Vacantes</p>
@@ -224,16 +236,16 @@
                 <p>Términos</p>
             </div>
             <div class="col-sm-2">
-                <p class="titleColumn">Asistencia</p>
+                <p class="u-txt-24">Asistencia</p>
                 <p>Centro de ayuda</p>
                 <p>Tutoriales en video</p>
             </div>
             <div class="col-sm-2">
-                <p class="titleColumn">Desarrolladores</p>
+                <p class="u-txt-24">Desarrolladores</p>
                 <p>Herramientas de desarrollo</p>
             </div>
             <div class="col-sm-2">
-                <p class="titleColumn">Soluciones</p>
+                <p class="u-txt-24">Soluciones</p>
                 <p>Éxito de clientes</p>
                 <p>Ventas</p>
                 <p>Contratación</p>
@@ -241,7 +253,7 @@
                 <p>Particulares</p>
             </div>
             <div class="col-sm-2">
-                <p class="titleColumn">Funciones populares</p>
+                <p class="u-txt-24">Funciones populares</p>
                 <p>Éxito de clientes</p>
                 <p>Ventas</p>
                 <p>Contratación</p>

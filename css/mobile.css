@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px){
+    .content-one{
+        display: inline-grid;
+    }
+    .menu{
+        justify-content: space-between;
+    }
+    .tabs{
+        display: none;
+    }
+    .tabs-show{
+        display: table;
+    }
+    .tabs a{
+        margin-bottom: 10px;
+    }
+    .icono-hamburguesa{
+        height: 16px;
+        margin-top: 9px;
+        margin-left: 25px;
+        display: block;
+    }
+    .boton{
+        position: absolute;
+        display: flex;
+        margin-left: 50%;
+    }
+    .logo{
+        height: 40px;
+    }
+    .logos div{
+        width: 50%;
+        margin-bottom: 64px;
+    }
+    .logos img {
+        height: 16px;
+    }
+    .img-desktop{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+    }
+
+    /*          Margenes            */
+    .m-lr-83{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .m-top-128{
+        margin-top: 64px;
+    }
+    .m-bottom-128{
+        margin-bottom: 64px;
+    }
+    .m-bottom-24{
+        margin-bottom: 24px;
+    }
+    .m-top-32, .m-top-64{
+        margin-top: 32px;
+    }
+
+    /*          Utilidades          */
+
+    .u-width-50{
+        width: 75%;
+    }
+    .u-flex-reverse{
+        flex-direction: column-reverse;
+    }
+    .u-txt-90 {
+        font-size: 50px;
+        line-height: 48px;
+    }
+    .u-txt-32 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .u-txt-52{
+        font-size: 40px;
+    }
+}

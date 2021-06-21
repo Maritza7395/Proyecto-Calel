@@ -1,4 +1,4 @@
 function desplegarMenu(){
     console.log("fff");
-    $("#tabs").toggleClass("tabs-show");
+    $("#tabs-mobile").toggleClass("tabs-show");
 }
