@@ -96,6 +96,9 @@ body{
 .m-top-64{
     margin-top: 64px;
 }
+.m-top--90{
+    margin-top: -90px;
+}
 .m-top-128{
     margin-top: 128px;
 }
@@ -124,9 +127,8 @@ body{
     margin-left: 83px;
     margin-right: 83px;
 }
-.m-lr-118{
+.m-l-118{
     margin-left: 118px;
-    margin-right: 118px;
 }
 .m-lr-204{
     margin-left: 204px;
@@ -211,6 +213,9 @@ body{
 }
 .u-align-item-center{
     align-items: center;
+}
+.u-flex-end{
+    align-items: flex-end;
 }
 .u-align-justify-center{
     align-content: flex-start;

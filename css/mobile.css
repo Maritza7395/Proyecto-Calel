@@ -28,9 +28,12 @@
     .logo{
         height: 40px;
     }
+    .logo-footer{
+        height: 32px;
+        margin-bottom: 24px;
+    }
     .logos div{
         width: 50%;
-        margin-bottom: 64px;
     }
     .logos img {
         height: 16px;
@@ -41,11 +44,24 @@
     .img-mobile{
         display: block;
     }
+    .i-figura{
+        width: 189px;
+    }
+    .img-328{
+        width: 300px;
+    }
 
     /*          Margenes            */
     .m-lr-83{
         margin-left: 16px;
         margin-right: 16px;
+    }
+    .m-lr-204, .m-lr-auto {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .m-l-118{
+        margin-left: 0px;
     }
     .m-top-128{
         margin-top: 64px;
@@ -56,8 +72,20 @@
     .m-bottom-24{
         margin-bottom: 24px;
     }
+    .m-bottom-64{
+        margin-bottom: 64px;
+    }
     .m-top-32, .m-top-64{
         margin-top: 32px;
+    }
+    .m-top--90{
+        margin-top: 0px;
+    }
+    .m-top-136{
+        margin-top: 48px;
+    }
+    .m-btn-white{
+        margin-left: 25%;
     }
 
     /*          Utilidades          */
@@ -78,5 +106,13 @@
     }
     .u-txt-52{
         font-size: 40px;
+    }
+    .u-txt-32--mob{
+        font-size: 32px;
+        line-height: 51px;
+        font-weight: 900;
+    }
+    .u-width-54{
+        width: 100%;
     }
 }
