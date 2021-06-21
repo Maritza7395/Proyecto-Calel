@@ -245,3 +245,6 @@ body{
 .u-word-break{
     word-break: break-word;
 }
+.u-border-dash{
+    border-top: 2px dashed #CECECE;
+}
