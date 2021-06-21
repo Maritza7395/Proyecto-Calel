@@ -16,13 +16,15 @@ Puedes verlo aquí: https://maritza7395.github.io/Proyecto-Calel/
 
 ### 💻 Desktop
 
-<img src="./resources/tools/landing-muestra.PNG">
+<img width="900" src="./resources/tools/landing-muestra.PNG">
 
 ### 📱 Mobile
 
-<img src="./resources/tools/landingMobile1.PNG">
-<img src="./resources/tools/landingMobile2.PNG">
-<img src="./resources/tools/landingMobile3.PNG">
+<div style="display: flex-inline">
+    <img width="300" src="./resources/tools/landingMobile1.PNG">
+    <img width="300" src="./resources/tools/landingMobile2.PNG">
+    <img width="300" src="./resources/tools/landingMobile3.PNG">
+</div>
 
 ## 🌟 Autor
 
