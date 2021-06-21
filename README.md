@@ -20,7 +20,9 @@ Puedes verlo aquí: https://maritza7395.github.io/Proyecto-Calel/
 
 ### 📱 Mobile
 
-<imagen aquí>
+<img src="./resources/tools/landingMobile1.PNG">
+<img src="./resources/tools/landingMobile2.PNG">
+<img src="./resources/tools/landingMobile3.PNG">
 
 ## 🌟 Autor
 
