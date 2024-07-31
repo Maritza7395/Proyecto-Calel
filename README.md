@@ -28,7 +28,7 @@ Puedes verlo aquí: https://maritza7395.github.io/Proyecto-Calel/
 
 ## 🌟 Autor
 
-* **<Maritza Loaiza>**  [@Maritza_Loaiza](https://github.com/Maritza7395)
+* **<Maritza Loaiza>**  [@Maritza_Loaiza](https://github.com/mloaizau)
 
 > Puedes encontrar más proyectos en
 [LeonidasEsteban.com](https://leonidasesteban.com/proyectos/todos)
